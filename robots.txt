@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://spaceXML.github.io/sitemap.xml
