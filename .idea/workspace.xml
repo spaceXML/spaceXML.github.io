@@ -2,7 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9b66573-43f8-439e-8ac9-80b918ce6019" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/about/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive.html" beforeDir="false" afterPath="$PROJECT_DIR$/archive.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/author/moon9342/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/author/moon9342/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_archive.html" beforeDir="false" afterPath="$PROJECT_DIR$/author_archive.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog-basic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/copang-basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/copang-basic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news-basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/news-basic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/project-basic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/promotionl-basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/promotionl-basic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag/blog/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tag/blog/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tag/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag/coupang/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tag/coupang/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag/coupang/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tag/coupang/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag/news/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tag/news/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag/news/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tag/news/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag/project/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tag/project/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag/project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tag/project/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag/promotion/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tag/promotion/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag/promotion/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tag/promotion/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +64,7 @@
       <workItem from="1621784021330" duration="263000" />
       <workItem from="1621784377866" duration="620000" />
       <workItem from="1621785107071" duration="9000" />
+      <workItem from="1621785127681" duration="165000" />
     </task>
     <task id="LOCAL-00001" summary="cccccccc">
       <created>1621782888724</created>
@@ -63,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621784391980</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="cccccccc">
+      <created>1621785144271</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1621785144271</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
