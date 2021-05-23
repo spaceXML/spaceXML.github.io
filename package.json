@@ -22,5 +22,8 @@
     },
     "config": {
         "posts_per_page": 25
+    },
+    "dependencies": {
+        "hexo-auto-canonical": "^0.1.1"
     }
 }
