@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> - Articles</title>
+    <description>개발자 블로그 spaceXML</description>
+    <link>
+    https://spaceXML.github.io</link>
+    
+      
+      <item>
+        <title>blog2-test</title>
+        
+          <description>&lt;!--포스트 작성하고 작선된 포스트에 목차를 나타내게 해준다
+1. post에 작성된 글은 include python-table-of-contents.html 을 첫줄에 쓰고
+2. 포스트에추가할 내용에도 게속 include python-table-of-contents.html을 첫줄에 쓰고 작성하면된다--&gt;
+&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python을 사용하여 여러 절로 목차를 구성 하였습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./blog-basic&quot;&gt;blog1-test&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blog-1&quot;&gt;blog2-test&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Mon, 17 May 2021 19:35:00 +0900</pubDate>
+        <link>
+        https://spaceXML.github.io/blog-1</link>
+        <guid isPermaLink="true">https://spaceXML.github.io/blog-1</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>blog1-test</title>
+        
+          <description>&lt;!--포스트 작성하고 작선된 포스트에 목차를 나타내게 해준다
+1. post에 작성된 글은 include python-table-of-contents.html 을 첫줄에 쓰고
+2. 포스트에추가할 내용에도 게속 include python-table-of-contents.html을 첫줄에 쓰고 작성하면된다--&gt;
+&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python을 사용하여 여러 절로 목차를 구성 하였습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./blog-basic&quot;&gt;blog1-test&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blog-1&quot;&gt;blog2-test&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Sun, 16 May 2021 19:35:00 +0900</pubDate>
+        <link>
+        https://spaceXML.github.io/blog-basic</link>
+        <guid isPermaLink="true">https://spaceXML.github.io/blog-basic</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>news</title>
+        
+          <description>&lt;p&gt;하하하하하 TEST 중입니다.&lt;/p&gt;
+</description>
+        
+        <pubDate>Wed, 12 May 2021 19:32:00 +0900</pubDate>
+        <link>
+        https://spaceXML.github.io/news-basic</link>
+        <guid isPermaLink="true">https://spaceXML.github.io/news-basic</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>coupang</title>
+        
+          <description>&lt;p&gt;하하하하하 TEST 중입니다.&lt;/p&gt;
+</description>
+        
+        <pubDate>Wed, 12 May 2021 19:31:00 +0900</pubDate>
+        <link>
+        https://spaceXML.github.io/copang-basic</link>
+        <guid isPermaLink="true">https://spaceXML.github.io/copang-basic</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>OK스카이차 promotion</title>
+        
+          <description>&lt;p&gt;하하하하하 OK스카이차 promotion TEST&lt;/p&gt;
+</description>
+        
+        <pubDate>Wed, 12 May 2021 19:30:00 +0900</pubDate>
+        <link>
+        https://spaceXML.github.io/promotionl-basic</link>
+        <guid isPermaLink="true">https://spaceXML.github.io/promotionl-basic</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Python 강좌 Python 기본</title>
+        
+          <description>&lt;p&gt;javascript test 중입니다 흠&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 12 May 2021 19:30:00 +0900</pubDate>
+        <link>
+        https://spaceXML.github.io/project-basic</link>
+        <guid isPermaLink="true">https://spaceXML.github.io/project-basic</guid>
+      </item>
+      
+    
+  </channel>
+</rss>

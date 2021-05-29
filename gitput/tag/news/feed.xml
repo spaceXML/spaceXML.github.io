@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
+  <link href="https://spacexml.github.io/tag/news/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://spacexml.github.io/" rel="alternate" type="text/html" />
+  <updated>2021-05-29T03:35:52+09:00</updated>
+  <id>https://spacexml.github.io/tag/news/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">IS-be IT wolrd of ture | </title>
+  
+
+  
+    <subtitle>개발자 블로그 spaceXML</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">news</title>
+      <link href="https://spacexml.github.io/news-basic" rel="alternate" type="text/html" title="news" />
+      <published>2021-05-12T19:32:00+09:00</published>
+      <updated>2021-05-12T19:32:00+09:00</updated>
+      <id>https://spacexml.github.io/news-basic</id>
+      <content type="html" xml:base="https://spacexml.github.io/news-basic">&lt;p&gt;하하하하하 TEST 중입니다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>spaceXML</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="news" />
+      
+
+      
+        <summary type="html">하하하하하 TEST 중입니다.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
