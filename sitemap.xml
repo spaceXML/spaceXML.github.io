@@ -4,6 +4,22 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+        <loc>https://spaceXML.github.io/blog-2.html</loc>
+        
+        <lastmod>2021-05-30T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
         <loc>https://spaceXML.github.io/blog-1.html</loc>
         
         <lastmod>2021-05-17T19:35:00+09:00</lastmod>
