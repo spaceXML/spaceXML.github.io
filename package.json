@@ -24,6 +24,7 @@
         "posts_per_page": 25
     },
     "dependencies": {
-        "hexo-auto-canonical": "^0.1.1"
+        "hexo-auto-canonical": "^0.1.1",
+        "jquery": "^3.6.0"
     }
 }
