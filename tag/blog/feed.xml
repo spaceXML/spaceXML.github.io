@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="https://spacexml.github.io/tag/blog/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://spacexml.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-06-05T08:08:29+09:00</updated>
+  <updated>2021-06-05T08:11:30+09:00</updated>
   <id>https://spacexml.github.io/tag/blog/feed.xml</id>
 
   
@@ -153,17 +153,22 @@
       <published>2021-05-17T19:35:00+09:00</published>
       <updated>2021-05-17T19:35:00+09:00</updated>
       <id>https://spacexml.github.io/blog-1</id>
-      <content type="html" xml:base="https://spacexml.github.io/blog-1">&lt;!--포스트 작성하고 작선된 포스트에 목차를 나타내게 해준다
-1. post에 작성된 글은 include python-table-of-contents.html 을 첫줄에 쓰고
-2. 포스트에추가할 내용에도 게속 include python-table-of-contents.html을 첫줄에 쓰고 작성하면된다--&gt;
-&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python을 사용하여 여러 절로 목차를 구성 하였습니다. &lt;/span&gt;&lt;/p&gt;
+      <content type="html" xml:base="https://spacexml.github.io/blog-1">&lt;p&gt;&lt;br /&gt;
+&amp;lt;!–포스트 작성하고 작선된 포스트에 목차를 나타내게 해준다&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;post에 작성된 글은 include python-table-of-contents.html 을 첫줄에 쓰고&lt;/li&gt;
+  &lt;li&gt;포스트에추가할 내용에도 게속 include python-table-of-contents.html을 첫줄에 쓰고 작성하면된다–&amp;gt;
+&lt;span class=&quot;table-of-contents-list&quot;&gt;Python을 사용하여 여러 절로 목차를 구성 하였습니다. &lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./blog-basic&quot;&gt;blog1-test&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./blog-1&quot;&gt;blog2-test&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;두번째 테스트중입니다.
-&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/120869896-74e68300-c5d2-11eb-8ec7-e2896ec55fac.JPG&quot; alt=&quot;1323&quot; /&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;두번째 테스트중입니다.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/120869896-74e68300-c5d2-11eb-8ec7-e2896ec55fac.JPG&quot; alt=&quot;1323&quot; /&gt;&lt;/p&gt;</content>
 
       
       
@@ -184,7 +189,7 @@
       
 
       
-        <summary type="html">Python을 사용하여 여러 절로 목차를 구성 하였습니다. blog1-test blog2-test</summary>
+        <summary type="html">&amp;lt;!–포스트 작성하고 작선된 포스트에 목차를 나타내게 해준다 post에 작성된 글은 include python-table-of-contents.html 을 첫줄에 쓰고 포스트에추가할 내용에도 게속 include python-table-of-contents.html을 첫줄에 쓰고 작성하면된다–&amp;gt; Python을 사용하여 여러 절로 목차를 구성 하였습니다. blog1-test blog2-test 두번째 테스트중입니다.</summary>
       
 
       

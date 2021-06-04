@@ -54,14 +54,20 @@
       <item>
         <title>blog2-test</title>
         
-          <description>&lt;!--포스트 작성하고 작선된 포스트에 목차를 나타내게 해준다
-1. post에 작성된 글은 include python-table-of-contents.html 을 첫줄에 쓰고
-2. 포스트에추가할 내용에도 게속 include python-table-of-contents.html을 첫줄에 쓰고 작성하면된다--&gt;
-&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python을 사용하여 여러 절로 목차를 구성 하였습니다. &lt;/span&gt;&lt;/p&gt;
+          <description>&lt;p&gt;&lt;br /&gt;
+&amp;lt;!–포스트 작성하고 작선된 포스트에 목차를 나타내게 해준다&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;post에 작성된 글은 include python-table-of-contents.html 을 첫줄에 쓰고&lt;/li&gt;
+  &lt;li&gt;포스트에추가할 내용에도 게속 include python-table-of-contents.html을 첫줄에 쓰고 작성하면된다–&amp;gt;
+&lt;span class=&quot;table-of-contents-list&quot;&gt;Python을 사용하여 여러 절로 목차를 구성 하였습니다. &lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./blog-basic&quot;&gt;blog1-test&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./blog-1&quot;&gt;blog2-test&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;두번째 테스트중입니다.&lt;br /&gt;&lt;/p&gt;
 
 </description>
         
