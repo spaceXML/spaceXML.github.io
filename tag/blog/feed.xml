@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="https://spacexml.github.io/tag/blog/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://spacexml.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-06-05T08:11:30+09:00</updated>
+  <updated>2021-06-05T08:30:11+09:00</updated>
   <id>https://spacexml.github.io/tag/blog/feed.xml</id>
 
   
@@ -37,7 +37,7 @@
       <published>2021-06-05T00:00:00+09:00</published>
       <updated>2021-06-05T00:00:00+09:00</updated>
       <id>https://spacexml.github.io/blog-3</id>
-      <content type="html" xml:base="https://spacexml.github.io/blog-3">&lt;p&gt;&lt;strong&gt;**&lt;center&gt;어쩌다가 천재가된사람들-어쩌다어른D&lt;/center&gt;&lt;/strong&gt;**&lt;br /&gt;
+      <content type="html" xml:base="https://spacexml.github.io/blog-3">&lt;p&gt;&lt;strong&gt;&lt;center&gt;어쩌다가 천재가된사람들-어쩌다어른D&lt;/center&gt;&lt;/strong&gt;&lt;br /&gt;
 &lt;br /&gt;살다보니 서번트증후군이 생기고, 어쩌다가 천재가된사례를 통하여&lt;br /&gt;
 천재가된사람들이 나온다.&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
@@ -94,7 +94,7 @@
       
 
       
-        <summary type="html">**어쩌다가 천재가된사람들-어쩌다어른D** 살다보니 서번트증후군이 생기고, 어쩌다가 천재가된사례를 통하여 천재가된사람들이 나온다.</summary>
+        <summary type="html">어쩌다가 천재가된사람들-어쩌다어른D 살다보니 서번트증후군이 생기고, 어쩌다가 천재가된사례를 통하여 천재가된사람들이 나온다.</summary>
       
 
       
@@ -165,8 +165,7 @@
     &lt;li&gt;&lt;a href=&quot;./blog-1&quot;&gt;blog2-test&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;두번째 테스트중입니다.&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;두번째 테스트중입니다.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/120869896-74e68300-c5d2-11eb-8ec7-e2896ec55fac.JPG&quot; alt=&quot;1323&quot; /&gt;&lt;/p&gt;</content>
 
@@ -189,7 +188,7 @@
       
 
       
-        <summary type="html">&amp;lt;!–포스트 작성하고 작선된 포스트에 목차를 나타내게 해준다 post에 작성된 글은 include python-table-of-contents.html 을 첫줄에 쓰고 포스트에추가할 내용에도 게속 include python-table-of-contents.html을 첫줄에 쓰고 작성하면된다–&amp;gt; Python을 사용하여 여러 절로 목차를 구성 하였습니다. blog1-test blog2-test 두번째 테스트중입니다.</summary>
+        <summary type="html">&amp;lt;!–포스트 작성하고 작선된 포스트에 목차를 나타내게 해준다 post에 작성된 글은 include python-table-of-contents.html 을 첫줄에 쓰고 포스트에추가할 내용에도 게속 include python-table-of-contents.html을 첫줄에 쓰고 작성하면된다–&amp;gt; Python을 사용하여 여러 절로 목차를 구성 하였습니다. blog1-test blog2-test</summary>
       
 
       
