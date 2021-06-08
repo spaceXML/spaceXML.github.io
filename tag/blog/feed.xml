@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="https://spacexml.github.io/tag/blog/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://spacexml.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-06-08T23:16:19+09:00</updated>
+  <updated>2021-06-08T23:35:45+09:00</updated>
   <id>https://spacexml.github.io/tag/blog/feed.xml</id>
 
   
@@ -30,6 +30,185 @@
   
   
 
+  
+    <entry>
+      <title type="html">오라클 Database (1)</title>
+      <link href="https://spacexml.github.io/blog-5" rel="alternate" type="text/html" title="오라클 Database (1)" />
+      <published>2021-06-08T00:00:00+09:00</published>
+      <updated>2021-06-08T00:00:00+09:00</updated>
+      <id>https://spacexml.github.io/blog-5</id>
+      <content type="html" xml:base="https://spacexml.github.io/blog-5">&lt;p&gt;시작- cmd
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196607-96ce5700-c8ab-11eb-82f6-4f7a518f941a.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;sel
+2;&lt;/p&gt;
+
+&lt;p&gt;입력
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196664-a2ba1900-c8ab-11eb-989e-a739f355958c.png&quot; alt=&quot;image&quot; /&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196682-a64da000-c8ab-11eb-9280-ad4747bce5df.png&quot; alt=&quot;image&quot; /&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196712-abaaea80-c8ab-11eb-9355-cb9992089c6b.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196732-aea5db00-c8ab-11eb-8e7e-b20a6eb32231.png&quot; alt=&quot;image&quot; /&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196746-b1a0cb80-c8ab-11eb-899a-9d7a616b1a08.png&quot; alt=&quot;image&quot; /&gt;
+바탕화면 폴더만들기;
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196760-b5cce900-c8ab-11eb-9223-fe3b25ed23b7.png&quot; alt=&quot;image&quot; /&gt;
+dba 접속 명령어 최고관리자 명령어
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196780-bb2a3380-c8ab-11eb-9f1b-9e7db39733a2.png&quot; alt=&quot;image&quot; /&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196800-bf565100-c8ab-11eb-9a1f-f80b6c922812.png&quot; alt=&quot;image&quot; /&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196808-c1b8ab00-c8ab-11eb-860a-db12e206d647.png&quot; alt=&quot;image&quot; /&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196821-c3826e80-c8ab-11eb-8b2d-0701999c9470.png&quot; alt=&quot;image&quot; /&gt;
+&lt;img src=&quot;https://user
+![image](https://user-images.githubusercontent.com/84154282/121196887-ce3d0380-c8ab-11eb-83dd-3812d23ff61c.png)
+-images.githubusercontent.com/84154282/121196833-c54c3200-c8ab-11eb-84e5-739d39e93236.png&quot; alt=&quot;image&quot; /&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196845-c715f580-c8ab-11eb-9d2c-343c1d6c82fb.png&quot; alt=&quot;image&quot; /&gt;
+ip 주소 확인하기
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196870-cbdaa980-c8ab-11eb-97cc-26a5ad70a75d.png&quot; alt=&quot;image&quot; /&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196897-d006c700-c8ab-11eb-9c3d-5210c36ab2a5.png&quot; alt=&quot;image&quot; /&gt;
+질의 작성기로 확인하기
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196913-d432e480-c8ab-11eb-81f0-f1cfafb26932.png&quot; alt=&quot;image&quot; /&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196924-d72dd500-c8ab-11eb-822f-5797efcf2903.png&quot; alt=&quot;image&quot; /&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196934-d9902f00-c8ab-11eb-9024-10b2b007ce90.png&quot; alt=&quot;image&quot; /&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196946-db59f280-c8ab-11eb-8e95-ed8cdf8d41cc.png&quot; alt=&quot;image&quot; /&gt;
+빨간부분 ‘홑’ 으로 글자부분을 쓴다.
+‘홑’ 부분에서는 대,소문자를 구분해서 쓴다..
+Q1, EMP 테이블에서 전체 사원의 EMpno, ename, sal, deptno 값을 출력
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196985-e57bf100-c8ab-11eb-9740-6fad0893ccb1.png&quot; alt=&quot;image&quot; /&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196996-e7de4b00-c8ab-11eb-9cdb-41c058a9f922.png&quot; alt=&quot;image&quot; /&gt;
+where 부분에서 hiredate 에 81/04/02 까지 쪼개져서 나타나기
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121197017-ec0a6880-c8ab-11eb-9c3d-bde71d3e08ad.png&quot; alt=&quot;image&quot; /&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121197035-ee6cc280-c8ab-11eb-8c73-0894a167cdc4.png&quot; alt=&quot;image&quot; /&gt;
+emp 테이블에서 empno, ename, sal, deptno 항목 모든 내용 조회하기
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121197055-f3317680-c8ab-11eb-81c4-343030fef2c3.png&quot; alt=&quot;image&quot; /&gt;
+3번 EMP 테이블에서 empno가 7566번 사원의; 모든 컬럼을 출력
+질문의 답이 맞았다.
+-&lt;/p&gt;
+
+&lt;p&gt;4번의 emp 테이블에서 empno가 7902번 사원의 sal 값만 출력
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121197081-f9275780-c8ab-11eb-84db-40af6e375efb.png&quot; alt=&quot;image&quot; /&gt;
+5번 DEPT 테이블에서 dname이 SALES인 모든 컬럼을 출력 하시오
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121197102-fe84a200-c8ab-11eb-9ebc-b9b68fb4f5c4.png&quot; alt=&quot;image&quot; /&gt;
+‘홑’ 속에 문자열은 대문자를 유지해서 적어야된다.&lt;/p&gt;
+
+&lt;p&gt;6번 DEPT 테이블에서 loc가 ‘DALLAS’인 deptno, dname 값 출력
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121197118-02b0bf80-c8ac-11eb-8cc4-cdb1615f73cb.png&quot; alt=&quot;image&quot; /&gt;
+–SALGRADE 테이블에서 GRADE 값이 3이상인 모든 컬럼 출력 하시오
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121197142-080e0a00-c8ac-11eb-97d6-69a3c2a48802.png&quot; alt=&quot;image&quot; /&gt;
+데이터베이스에서는 문자형이 제일 많이나옴
+–데이터 타입 조회 방법
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121197193-11977200-c8ac-11eb-8956-c107ba3b0b06.png&quot; alt=&quot;image&quot; /&gt;
+위아래 조회는 같다.
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121197225-19571680-c8ac-11eb-81c1-450dc066a9af.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;트랜잭션이란&lt;/p&gt;
+
+&lt;p&gt;하나가 생기면 하나가 변하는
+동시성을  뜻한다.
+SELect * –조회하기 위해 select 무조건 적는다.
+from EMP; – EMP 테이블로 부터 조회한다.&lt;/p&gt;
+
+&lt;p&gt;select *
+from dept;&lt;/p&gt;
+
+&lt;p&gt;select *
+from salgrade;&lt;/p&gt;
+
+&lt;p&gt;select ename, job, MGR – Ename, job, MGR컬럼의 내용을 조회
+from emp;&lt;/p&gt;
+
+&lt;p&gt;select hiredate, sal, comm
+from emp;&lt;/p&gt;
+
+&lt;p&gt;select *
+from emp;
+where empno = 7782;&lt;/p&gt;
+
+&lt;p&gt;select *
+from emp
+where JOB = ‘salesman’;&lt;/p&gt;
+
+&lt;p&gt;select *
+from EMP
+WHere DEPTNO = 30;&lt;/p&gt;
+
+&lt;p&gt;select EMPNO, ENAME, JOB
+from EMP
+where JOB = ‘MANAGER’;
+–1) EMP 테이블에서 전체 사원의 empno, ename, sal,
+– deptno 값을 출력&lt;/p&gt;
+
+&lt;p&gt;select empno, ename, sal, deptno
+from EMP
+– 전체 조건은 where 에 안쓰면 된다.&lt;/p&gt;
+
+&lt;p&gt;select *
+from EMP
+where hiredate = ‘81/04/02’;&lt;/p&gt;
+
+&lt;p&gt;SCOTT계정에 쓴 내용들 SQL 내용&lt;/p&gt;
+
+&lt;p&gt;– 3번 3번 EMP 테이블에서 empno가 7566번 사원의; 모든 컬럼을 출력
+질문의 답이 맞았다.&lt;/p&gt;
+
+&lt;p&gt;select *
+from EMP
+where hiredate = ‘81/04/02’;
+–4번의 emp 테이블에서 empno가 7902번 사원의 sal 값만 출력
+select sal
+from EMP
+where empno = 7902;
+–5번 DEPT 테이블에서 dname이 SALES인 모든 컬럼을 출력 하시오
+select *
+from DEPT
+where dname = ‘SALES’;
+–6번 DEPT 테이블에서 loc가 ‘DALLAS’인 deptno, dname 값 출력
+select deptno, dname
+from DEPT
+where loc = ‘DALLAS’;
+–번 외 문제
+–SALGRADE 테이블에서 GRADE 값이 3이상인 모든 컬럼 출력
+select *
+from salgrade
+where  Grade &amp;gt;= 3; – 연상자 : =, &amp;lt;, &amp;gt;, &amp;gt;=, &amp;lt;=&lt;/p&gt;
+
+&lt;p&gt;–데이터 타입 조회
+DESC EMP;
+오라클사용 Bat 파일로 클릭만으로 자동 실행되는 방법, 즉 자동실행 파일을 만든다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121197320-2ecc4080-c8ac-11eb-9dc1-1ccc6c167e02.png&quot; alt=&quot;image&quot; /&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121197336-312e9a80-c8ac-11eb-98e3-5f6b8e8acda0.png&quot; alt=&quot;image&quot; /&gt;
+net start OracleServiceXE
+net start OracleOraDB18Home1TNSListener
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121197362-355ab800-c8ac-11eb-9cbc-0e260b8cbd01.png&quot; alt=&quot;image&quot; /&gt;
+TXT -&amp;gt; BAT으로 확장자 변환
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121197394-3ab80280-c8ac-11eb-8984-dd1b553c469e.png&quot; alt=&quot;image&quot; /&gt;
+종료가 된다면 자동 실행이 된다.
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121197416-3f7cb680-c8ac-11eb-9bde-d2bcf9c8da4e.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>spaceXML</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="blog" />
+      
+
+      
+        <summary type="html">시작- cmd</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">어쩌다어른 고층에는 권력자가산다 리뷰</title>
@@ -456,185 +635,6 @@ exclude:
 
       
         <summary type="html">Python을 사용하여 여러 절로 목차를 구성 하였습니다. blog1-test blog2-test</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">오라클 Database (1)</title>
-      <link href="https://spacexml.github.io/blog-5" rel="alternate" type="text/html" title="오라클 Database (1)" />
-      <published>2021-05-16T19:35:00+09:00</published>
-      <updated>2021-05-16T19:35:00+09:00</updated>
-      <id>https://spacexml.github.io/blog-5</id>
-      <content type="html" xml:base="https://spacexml.github.io/blog-5">&lt;p&gt;시작- cmd
-&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196607-96ce5700-c8ab-11eb-82f6-4f7a518f941a.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;sel
-2;&lt;/p&gt;
-
-&lt;p&gt;입력
-&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196664-a2ba1900-c8ab-11eb-989e-a739f355958c.png&quot; alt=&quot;image&quot; /&gt;
-&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196682-a64da000-c8ab-11eb-9280-ad4747bce5df.png&quot; alt=&quot;image&quot; /&gt;
-&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196712-abaaea80-c8ab-11eb-9355-cb9992089c6b.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196732-aea5db00-c8ab-11eb-8e7e-b20a6eb32231.png&quot; alt=&quot;image&quot; /&gt;
-&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196746-b1a0cb80-c8ab-11eb-899a-9d7a616b1a08.png&quot; alt=&quot;image&quot; /&gt;
-바탕화면 폴더만들기;
-&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196760-b5cce900-c8ab-11eb-9223-fe3b25ed23b7.png&quot; alt=&quot;image&quot; /&gt;
-dba 접속 명령어 최고관리자 명령어
-&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196780-bb2a3380-c8ab-11eb-9f1b-9e7db39733a2.png&quot; alt=&quot;image&quot; /&gt;
-&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196800-bf565100-c8ab-11eb-9a1f-f80b6c922812.png&quot; alt=&quot;image&quot; /&gt;
-&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196808-c1b8ab00-c8ab-11eb-860a-db12e206d647.png&quot; alt=&quot;image&quot; /&gt;
-&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196821-c3826e80-c8ab-11eb-8b2d-0701999c9470.png&quot; alt=&quot;image&quot; /&gt;
-&lt;img src=&quot;https://user
-![image](https://user-images.githubusercontent.com/84154282/121196887-ce3d0380-c8ab-11eb-83dd-3812d23ff61c.png)
--images.githubusercontent.com/84154282/121196833-c54c3200-c8ab-11eb-84e5-739d39e93236.png&quot; alt=&quot;image&quot; /&gt;
-&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196845-c715f580-c8ab-11eb-9d2c-343c1d6c82fb.png&quot; alt=&quot;image&quot; /&gt;
-ip 주소 확인하기
-&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196870-cbdaa980-c8ab-11eb-97cc-26a5ad70a75d.png&quot; alt=&quot;image&quot; /&gt;
-&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196897-d006c700-c8ab-11eb-9c3d-5210c36ab2a5.png&quot; alt=&quot;image&quot; /&gt;
-질의 작성기로 확인하기
-&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196913-d432e480-c8ab-11eb-81f0-f1cfafb26932.png&quot; alt=&quot;image&quot; /&gt;
-&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196924-d72dd500-c8ab-11eb-822f-5797efcf2903.png&quot; alt=&quot;image&quot; /&gt;
-&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196934-d9902f00-c8ab-11eb-9024-10b2b007ce90.png&quot; alt=&quot;image&quot; /&gt;
-&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196946-db59f280-c8ab-11eb-8e95-ed8cdf8d41cc.png&quot; alt=&quot;image&quot; /&gt;
-빨간부분 ‘홑’ 으로 글자부분을 쓴다.
-‘홑’ 부분에서는 대,소문자를 구분해서 쓴다..
-Q1, EMP 테이블에서 전체 사원의 EMpno, ename, sal, deptno 값을 출력
-&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196985-e57bf100-c8ab-11eb-9740-6fad0893ccb1.png&quot; alt=&quot;image&quot; /&gt;
-&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196996-e7de4b00-c8ab-11eb-9cdb-41c058a9f922.png&quot; alt=&quot;image&quot; /&gt;
-where 부분에서 hiredate 에 81/04/02 까지 쪼개져서 나타나기
-&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121197017-ec0a6880-c8ab-11eb-9c3d-bde71d3e08ad.png&quot; alt=&quot;image&quot; /&gt;
-&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121197035-ee6cc280-c8ab-11eb-8c73-0894a167cdc4.png&quot; alt=&quot;image&quot; /&gt;
-emp 테이블에서 empno, ename, sal, deptno 항목 모든 내용 조회하기
-&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121197055-f3317680-c8ab-11eb-81c4-343030fef2c3.png&quot; alt=&quot;image&quot; /&gt;
-3번 EMP 테이블에서 empno가 7566번 사원의; 모든 컬럼을 출력
-질문의 답이 맞았다.
--&lt;/p&gt;
-
-&lt;p&gt;4번의 emp 테이블에서 empno가 7902번 사원의 sal 값만 출력
-&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121197081-f9275780-c8ab-11eb-84db-40af6e375efb.png&quot; alt=&quot;image&quot; /&gt;
-5번 DEPT 테이블에서 dname이 SALES인 모든 컬럼을 출력 하시오
-&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121197102-fe84a200-c8ab-11eb-9ebc-b9b68fb4f5c4.png&quot; alt=&quot;image&quot; /&gt;
-‘홑’ 속에 문자열은 대문자를 유지해서 적어야된다.&lt;/p&gt;
-
-&lt;p&gt;6번 DEPT 테이블에서 loc가 ‘DALLAS’인 deptno, dname 값 출력
-&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121197118-02b0bf80-c8ac-11eb-8cc4-cdb1615f73cb.png&quot; alt=&quot;image&quot; /&gt;
-–SALGRADE 테이블에서 GRADE 값이 3이상인 모든 컬럼 출력 하시오
-&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121197142-080e0a00-c8ac-11eb-97d6-69a3c2a48802.png&quot; alt=&quot;image&quot; /&gt;
-데이터베이스에서는 문자형이 제일 많이나옴
-–데이터 타입 조회 방법
-&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121197193-11977200-c8ac-11eb-8956-c107ba3b0b06.png&quot; alt=&quot;image&quot; /&gt;
-위아래 조회는 같다.
-&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121197225-19571680-c8ac-11eb-81c1-450dc066a9af.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;트랜잭션이란&lt;/p&gt;
-
-&lt;p&gt;하나가 생기면 하나가 변하는
-동시성을  뜻한다.
-SELect * –조회하기 위해 select 무조건 적는다.
-from EMP; – EMP 테이블로 부터 조회한다.&lt;/p&gt;
-
-&lt;p&gt;select *
-from dept;&lt;/p&gt;
-
-&lt;p&gt;select *
-from salgrade;&lt;/p&gt;
-
-&lt;p&gt;select ename, job, MGR – Ename, job, MGR컬럼의 내용을 조회
-from emp;&lt;/p&gt;
-
-&lt;p&gt;select hiredate, sal, comm
-from emp;&lt;/p&gt;
-
-&lt;p&gt;select *
-from emp;
-where empno = 7782;&lt;/p&gt;
-
-&lt;p&gt;select *
-from emp
-where JOB = ‘salesman’;&lt;/p&gt;
-
-&lt;p&gt;select *
-from EMP
-WHere DEPTNO = 30;&lt;/p&gt;
-
-&lt;p&gt;select EMPNO, ENAME, JOB
-from EMP
-where JOB = ‘MANAGER’;
-–1) EMP 테이블에서 전체 사원의 empno, ename, sal,
-– deptno 값을 출력&lt;/p&gt;
-
-&lt;p&gt;select empno, ename, sal, deptno
-from EMP
-– 전체 조건은 where 에 안쓰면 된다.&lt;/p&gt;
-
-&lt;p&gt;select *
-from EMP
-where hiredate = ‘81/04/02’;&lt;/p&gt;
-
-&lt;p&gt;SCOTT계정에 쓴 내용들 SQL 내용&lt;/p&gt;
-
-&lt;p&gt;– 3번 3번 EMP 테이블에서 empno가 7566번 사원의; 모든 컬럼을 출력
-질문의 답이 맞았다.&lt;/p&gt;
-
-&lt;p&gt;select *
-from EMP
-where hiredate = ‘81/04/02’;
-–4번의 emp 테이블에서 empno가 7902번 사원의 sal 값만 출력
-select sal
-from EMP
-where empno = 7902;
-–5번 DEPT 테이블에서 dname이 SALES인 모든 컬럼을 출력 하시오
-select *
-from DEPT
-where dname = ‘SALES’;
-–6번 DEPT 테이블에서 loc가 ‘DALLAS’인 deptno, dname 값 출력
-select deptno, dname
-from DEPT
-where loc = ‘DALLAS’;
-–번 외 문제
-–SALGRADE 테이블에서 GRADE 값이 3이상인 모든 컬럼 출력
-select *
-from salgrade
-where  Grade &amp;gt;= 3; – 연상자 : =, &amp;lt;, &amp;gt;, &amp;gt;=, &amp;lt;=&lt;/p&gt;
-
-&lt;p&gt;–데이터 타입 조회
-DESC EMP;
-오라클사용 Bat 파일로 클릭만으로 자동 실행되는 방법, 즉 자동실행 파일을 만든다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121197320-2ecc4080-c8ac-11eb-9dc1-1ccc6c167e02.png&quot; alt=&quot;image&quot; /&gt;
-&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121197336-312e9a80-c8ac-11eb-98e3-5f6b8e8acda0.png&quot; alt=&quot;image&quot; /&gt;
-net start OracleServiceXE
-net start OracleOraDB18Home1TNSListener
-&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121197362-355ab800-c8ac-11eb-9cbc-0e260b8cbd01.png&quot; alt=&quot;image&quot; /&gt;
-TXT -&amp;gt; BAT으로 확장자 변환
-&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121197394-3ab80280-c8ac-11eb-8984-dd1b553c469e.png&quot; alt=&quot;image&quot; /&gt;
-종료가 된다면 자동 실행이 된다.
-&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121197416-3f7cb680-c8ac-11eb-9bde-d2bcf9c8da4e.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>spaceXML</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="blog" />
-      
-
-      
-        <summary type="html">시작- cmd</summary>
       
 
       
