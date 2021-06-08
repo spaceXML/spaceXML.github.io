@@ -188,7 +188,7 @@ into the {body} of the default.hbs template -->
         "title": "어쩌다어른 고층에는 권력자가산다 리뷰",
             "author": "spaceXML",
             "category": "",
-            "content": "어쩌다어른 고층에는 권력자가산다 리뷰루프탑 카페가 인기있는 이유타인의 시선차단올라가서 마치 권력을 가진다고 생각하게 되는 루프탑 공간높은층일수록 높은권력관음증의 대표적 공간 영화관이라고 말함어두운곳에서 다른사람을 훔쳐보는것을 관음증이라고 한다 흠 .여기서 석진이 자리는 권력자라고 뜻하고 석진이는 앞만보고 관찰다른직원들은 옆을 보고 관찰하는 관점의 차이가 있다고 말한다.서열이없는 관계를 유지하기에는 동그란 테이블이 좋다**퀴즈 석진과 친해지기 위한 자리는 어디일까요?**1번이 나왓다1번 이유는왼쪽얼굴이 더 잘생기게 보인다가깝게 대화할수있어서 였다.",
+            "content": "어쩌다어른 고층에는 권력자가산다 리뷰루프탑 카페가 인기있는 이유타인의 시선차단올라가서 마치 권력을 가진다고 생각하게 되는 루프탑 공간높은층일수록 높은권력관음증의 대표적 공간 영화관이라고 말함어두운곳에서 다른사람을 훔쳐보는것을 관음증이라고 한다 흠 .여기서 석진이 자리는 권력자라고 뜻하고 석진이는 앞만보고 관찰다른직원들은 옆을 보고 관찰하는 관점의 차이가 있다고 말한다.서열이없는 관계를 유지하기에는 동그란 테이블이 좋다퀴즈 석진과 친해지기 위한 자리는 어디일까요?1번이 나왓다1번 이유는왼쪽얼굴이 더 잘생기게 보인다가깝게 대화할수있어서 였다.",
         "url": "/blog-4"
     }
     ,
@@ -217,6 +217,15 @@ into the {body} of the default.hbs template -->
             "category": "",
             "content": "&lt;!–포스트 작성하고 작선된 포스트에 목차를 나타내게 해준다  post에 작성된 글은 include python-table-of-contents.html 을 첫줄에 쓰고  포스트에추가할 내용에도 게속 include python-table-of-contents.html을 첫줄에 쓰고 작성하면된다–&gt;Python을 사용하여 여러 절로 목차를 구성 하였습니다.     blog1-test    blog2-test두번째 테스트중입니다.",
         "url": "/blog-1"
+    }
+    ,
+    
+    "blog-5": {
+        "title": "오라클 Database (1)",
+            "author": "spaceXML",
+            "category": "",
+            "content": "시작- cmdsel2;입력바탕화면 폴더만들기;dba 접속 명령어 최고관리자 명령어ip 주소 확인하기질의 작성기로 확인하기빨간부분 ‘홑’ 으로 글자부분을 쓴다.‘홑’ 부분에서는 대,소문자를 구분해서 쓴다..Q1, EMP 테이블에서 전체 사원의 EMpno, ename, sal, deptno 값을 출력where 부분에서 hiredate 에 81/04/02 까지 쪼개져서 나타나기emp 테이블에서 empno, ename, sal, deptno 항목 모든 내용 조회하기3번 EMP 테이블에서 empno가 7566번 사원의; 모든 컬럼을 출력질문의 답이 맞았다.-4번의 emp 테이블에서 empno가 7902번 사원의 sal 값만 출력5번 DEPT 테이블에서 dname이 SALES인 모든 컬럼을 출력 하시오‘홑’ 속에 문자열은 대문자를 유지해서 적어야된다.6번 DEPT 테이블에서 loc가 ‘DALLAS’인 deptno, dname 값 출력–SALGRADE 테이블에서 GRADE 값이 3이상인 모든 컬럼 출력 하시오데이터베이스에서는 문자형이 제일 많이나옴–데이터 타입 조회 방법위아래 조회는 같다.트랜잭션이란하나가 생기면 하나가 변하는동시성을  뜻한다.SELect * –조회하기 위해 select 무조건 적는다.from EMP; – EMP 테이블로 부터 조회한다.select *from dept;select *from salgrade;select ename, job, MGR – Ename, job, MGR컬럼의 내용을 조회from emp;select hiredate, sal, commfrom emp;select *from emp;where empno = 7782;select *from empwhere JOB = ‘salesman’;select *from EMPWHere DEPTNO = 30;select EMPNO, ENAME, JOBfrom EMPwhere JOB = ‘MANAGER’;–1) EMP 테이블에서 전체 사원의 empno, ename, sal,– deptno 값을 출력select empno, ename, sal, deptnofrom EMP– 전체 조건은 where 에 안쓰면 된다.select *from EMPwhere hiredate = ‘81/04/02’;SCOTT계정에 쓴 내용들 SQL 내용– 3번 3번 EMP 테이블에서 empno가 7566번 사원의; 모든 컬럼을 출력질문의 답이 맞았다.select *from EMPwhere hiredate = ‘81/04/02’;–4번의 emp 테이블에서 empno가 7902번 사원의 sal 값만 출력select salfrom EMPwhere empno = 7902;–5번 DEPT 테이블에서 dname이 SALES인 모든 컬럼을 출력 하시오select *from DEPTwhere dname = ‘SALES’;–6번 DEPT 테이블에서 loc가 ‘DALLAS’인 deptno, dname 값 출력select deptno, dnamefrom DEPTwhere loc = ‘DALLAS’;–번 외 문제–SALGRADE 테이블에서 GRADE 값이 3이상인 모든 컬럼 출력select *from salgradewhere  Grade &gt;= 3; – 연상자 : =, &lt;, &gt;, &gt;=, &lt;=–데이터 타입 조회DESC EMP;오라클사용 Bat 파일로 클릭만으로 자동 실행되는 방법, 즉 자동실행 파일을 만든다.net start OracleServiceXEnet start OracleOraDB18Home1TNSListenerTXT -&gt; BAT으로 확장자 변환종료가 된다면 자동 실행이 된다.",
+        "url": "/blog-5"
     }
     ,
     
