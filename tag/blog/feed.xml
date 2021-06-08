@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="https://spacexml.github.io/tag/blog/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://spacexml.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-06-08T23:35:45+09:00</updated>
+  <updated>2021-06-09T00:05:00+09:00</updated>
   <id>https://spacexml.github.io/tag/blog/feed.xml</id>
 
   
@@ -37,11 +37,12 @@
       <published>2021-06-08T00:00:00+09:00</published>
       <updated>2021-06-08T00:00:00+09:00</updated>
       <id>https://spacexml.github.io/blog-5</id>
-      <content type="html" xml:base="https://spacexml.github.io/blog-5">&lt;p&gt;시작- cmd
+      <content type="html" xml:base="https://spacexml.github.io/blog-5">&lt;p&gt;구글 - 오라클 - 회원가입 - 다운로드&lt;br /&gt;
+다른로드 목록 &lt;br /&gt;
+시작- sql-plus
 &lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196607-96ce5700-c8ab-11eb-82f6-4f7a518f941a.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;sel
-2;&lt;/p&gt;
+&lt;p&gt;select username from all_users;&lt;/p&gt;
 
 &lt;p&gt;입력
 &lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196664-a2ba1900-c8ab-11eb-989e-a739f355958c.png&quot; alt=&quot;image&quot; /&gt;
@@ -56,11 +57,11 @@ dba 접속 명령어 최고관리자 명령어
 &lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196780-bb2a3380-c8ab-11eb-9f1b-9e7db39733a2.png&quot; alt=&quot;image&quot; /&gt;
 &lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196800-bf565100-c8ab-11eb-9a1f-f80b6c922812.png&quot; alt=&quot;image&quot; /&gt;
 &lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196808-c1b8ab00-c8ab-11eb-860a-db12e206d647.png&quot; alt=&quot;image&quot; /&gt;
-&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196821-c3826e80-c8ab-11eb-8b2d-0701999c9470.png&quot; alt=&quot;image&quot; /&gt;
-&lt;img src=&quot;https://user
-![image](https://user-images.githubusercontent.com/84154282/121196887-ce3d0380-c8ab-11eb-83dd-3812d23ff61c.png)
--images.githubusercontent.com/84154282/121196833-c54c3200-c8ab-11eb-84e5-739d39e93236.png&quot; alt=&quot;image&quot; /&gt;
-&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196845-c715f580-c8ab-11eb-9d2c-343c1d6c82fb.png&quot; alt=&quot;image&quot; /&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196821-c3826e80-c8ab-11eb-8b2d-0701999c9470.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196887-ce3d0380-c8ab-11eb-83dd-3812d23ff61c.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196845-c715f580-c8ab-11eb-9d2c-343c1d6c82fb.png&quot; alt=&quot;image&quot; /&gt;
 ip 주소 확인하기
 &lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196870-cbdaa980-c8ab-11eb-97cc-26a5ad70a75d.png&quot; alt=&quot;image&quot; /&gt;
 &lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196897-d006c700-c8ab-11eb-9c3d-5210c36ab2a5.png&quot; alt=&quot;image&quot; /&gt;
@@ -203,7 +204,7 @@ TXT -&amp;gt; BAT으로 확장자 변환
       
 
       
-        <summary type="html">시작- cmd</summary>
+        <summary type="html">구글 - 오라클 - 회원가입 - 다운로드 다른로드 목록 시작- sql-plus</summary>
       
 
       
