@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="https://spacexml.github.io/tag/blog/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://spacexml.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-06-09T00:06:55+09:00</updated>
+  <updated>2021-06-09T00:09:18+09:00</updated>
   <id>https://spacexml.github.io/tag/blog/feed.xml</id>
 
   
@@ -148,28 +148,33 @@ where hiredate = ‘81/04/02’;&lt;/p&gt;
 &lt;p&gt;SCOTT계정에 쓴 내용들 SQL 내용&lt;/p&gt;
 
 &lt;p&gt;– 3번 3번 EMP 테이블에서 empno가 7566번 사원의; 모든 컬럼을 출력
-질문의 답이 맞았다.&lt;/p&gt;
+질문의 답이 맞았다.&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;select *
 from EMP
-where hiredate = ‘81/04/02’;
-–4번의 emp 테이블에서 empno가 7902번 사원의 sal 값만 출력
+where hiredate = ‘81/04/02’;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;–4번의 emp 테이블에서 empno가 7902번 사원의 sal 값만 출력
 select sal
 from EMP
-where empno = 7902;
-–5번 DEPT 테이블에서 dname이 SALES인 모든 컬럼을 출력 하시오
+where empno = 7902;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;–5번 DEPT 테이블에서 dname이 SALES인 모든 컬럼을 출력 하시오
 select *
 from DEPT
 where dname = ‘SALES’;
+&lt;br /&gt;
 –6번 DEPT 테이블에서 loc가 ‘DALLAS’인 deptno, dname 값 출력
 select deptno, dname
 from DEPT
 where loc = ‘DALLAS’;
+&lt;br /&gt;
 –번 외 문제
 –SALGRADE 테이블에서 GRADE 값이 3이상인 모든 컬럼 출력
 select *
 from salgrade
-where  Grade &amp;gt;= 3; – 연상자 : =, &amp;lt;, &amp;gt;, &amp;gt;=, &amp;lt;=&lt;/p&gt;
+where  Grade &amp;gt;= 3; – 연상자 : =, &amp;lt;, &amp;gt;, &amp;gt;=, &amp;lt;=
+&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;–데이터 타입 조회
 DESC EMP;

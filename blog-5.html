@@ -307,28 +307,33 @@ where hiredate = ‘81/04/02’;</p>
 <p>SCOTT계정에 쓴 내용들 SQL 내용</p>
 
 <p>– 3번 3번 EMP 테이블에서 empno가 7566번 사원의; 모든 컬럼을 출력
-질문의 답이 맞았다.</p>
+질문의 답이 맞았다.<br /></p>
 
 <p>select *
 from EMP
-where hiredate = ‘81/04/02’;
-–4번의 emp 테이블에서 empno가 7902번 사원의 sal 값만 출력
+where hiredate = ‘81/04/02’;<br /></p>
+
+<p>–4번의 emp 테이블에서 empno가 7902번 사원의 sal 값만 출력
 select sal
 from EMP
-where empno = 7902;
-–5번 DEPT 테이블에서 dname이 SALES인 모든 컬럼을 출력 하시오
+where empno = 7902;<br /></p>
+
+<p>–5번 DEPT 테이블에서 dname이 SALES인 모든 컬럼을 출력 하시오
 select *
 from DEPT
 where dname = ‘SALES’;
+<br />
 –6번 DEPT 테이블에서 loc가 ‘DALLAS’인 deptno, dname 값 출력
 select deptno, dname
 from DEPT
 where loc = ‘DALLAS’;
+<br />
 –번 외 문제
 –SALGRADE 테이블에서 GRADE 값이 3이상인 모든 컬럼 출력
 select *
 from salgrade
-where  Grade &gt;= 3; – 연상자 : =, &lt;, &gt;, &gt;=, &lt;=</p>
+where  Grade &gt;= 3; – 연상자 : =, &lt;, &gt;, &gt;=, &lt;=
+<br /></p>
 
 <p>–데이터 타입 조회
 DESC EMP;
