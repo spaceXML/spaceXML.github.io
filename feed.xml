@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://spacexml.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://spacexml.github.io/" rel="alternate" type="text/html" /><updated>2021-06-09T00:09:18+09:00</updated><id>https://spacexml.github.io/</id><title type="html">IS-be IT wolrd of ture</title><subtitle>개발자 블로그 spaceXML</subtitle><entry><title type="html">오라클 Database (1)</title><link href="https://spacexml.github.io/blog-5" rel="alternate" type="text/html" title="오라클 Database (1)" /><published>2021-06-08T00:00:00+09:00</published><updated>2021-06-08T00:00:00+09:00</updated><id>https://spacexml.github.io/blog-5</id><content type="html" xml:base="https://spacexml.github.io/blog-5">&lt;p&gt;구글 - 오라클 - 회원가입 - 다운로드&lt;br /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://spacexml.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://spacexml.github.io/" rel="alternate" type="text/html" /><updated>2021-06-13T23:25:57+09:00</updated><id>https://spacexml.github.io/</id><title type="html">IS-be IT wolrd of ture</title><subtitle>개발자 블로그 spaceXML</subtitle><entry><title type="html">오라클 Database (1)</title><link href="https://spacexml.github.io/project-1" rel="alternate" type="text/html" title="오라클 Database (1)" /><published>2021-06-08T00:00:00+09:00</published><updated>2021-06-08T00:00:00+09:00</updated><id>https://spacexml.github.io/project-1</id><content type="html" xml:base="https://spacexml.github.io/project-1">&lt;p&gt;구글 - 오라클 - 회원가입 - 다운로드&lt;br /&gt;
 다른로드 목록 &lt;br /&gt;
 시작- sql-plus
 &lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121196607-96ce5700-c8ab-11eb-82f6-4f7a518f941a.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
@@ -149,7 +149,271 @@ net start OracleOraDB18Home1TNSListener
 TXT -&amp;gt; BAT으로 확장자 변환
 &lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121197394-3ab80280-c8ac-11eb-8984-dd1b553c469e.png&quot; alt=&quot;image&quot; /&gt;
 종료가 된다면 자동 실행이 된다.
-&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121197416-3f7cb680-c8ac-11eb-9bde-d2bcf9c8da4e.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;</content><author><name>spaceXML</name></author><category term="blog" /><summary type="html">구글 - 오라클 - 회원가입 - 다운로드 다른로드 목록 시작- sql-plus</summary></entry><entry><title type="html">어쩌다어른 고층에는 권력자가산다 리뷰</title><link href="https://spacexml.github.io/blog-4" rel="alternate" type="text/html" title="어쩌다어른 고층에는 권력자가산다 리뷰" /><published>2021-06-07T00:00:00+09:00</published><updated>2021-06-07T00:00:00+09:00</updated><id>https://spacexml.github.io/blog-4</id><content type="html" xml:base="https://spacexml.github.io/blog-4">&lt;p&gt;&lt;strong&gt;&lt;center&gt;어쩌다어른 고층에는 권력자가산다 리뷰&lt;/center&gt;&lt;/strong&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121197416-3f7cb680-c8ac-11eb-9bde-d2bcf9c8da4e.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;</content><author><name>spaceXML</name></author><category term="project" /><summary type="html">구글 - 오라클 - 회원가입 - 다운로드 다른로드 목록 시작- sql-plus</summary></entry><entry><title type="html">정처기 실기공부 (1)</title><link href="https://spacexml.github.io/blog-5" rel="alternate" type="text/html" title="정처기 실기공부 (1)" /><published>2021-06-08T00:00:00+09:00</published><updated>2021-06-08T00:00:00+09:00</updated><id>https://spacexml.github.io/blog-5</id><content type="html" xml:base="https://spacexml.github.io/blog-5">&lt;p&gt;정처기 실기공부 (1)&lt;/p&gt;
+
+&lt;p&gt;tcp sequence number의 보안상 문제점 때문에 발생&lt;/p&gt;
+
+&lt;p&gt;victim과 server 사이의 패킷을 스니핑하여 sequence number를 획득하고, 공격자는 데이터 전송중인 victim과 server 사이를 비동기화 상태로 강제적으로 만듦&lt;/p&gt;
+
+&lt;p&gt;스니핑하여 획득한 client sequence number를 이용하여 공격
+공격자는 server에게 rst 패킷 날리고, 공격자의 새로운 sequnce numer로 server와 세션을 맺어 인증 우회, victim 권한으로 server 접근&lt;/p&gt;
+
+&lt;p&gt;비동기화 상태로 패킷이 유실되어 재전송 패킷 증가&lt;/p&gt;
+
+&lt;p&gt;이과정애서 ack storm 증가, nw 부하 증가&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;정답 tcp세션 하이재킹, 또는 세션하이재킹&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;동료검토(peer review): 2~3명이 진행하는 리뷰의 형태로 요구사항 명세서 작성자가 요구사항 명세서를 설명하고, 이해관계자들이 설명을 들으면서 결함을 발견하는 형태로 진행하는 검토기법이다.&lt;/p&gt;
+
+&lt;p&gt;(1) : 소프트웨어 요구, 설계, 원시 코드 등의 저작자 외의 다른 전문가 또는 팀이 검사하여 오류를 찾아 내는 공식적 검토방법이다.&lt;/p&gt;
+
+&lt;p&gt;인스팩션 소프트웨어 요구, 설계 원시 코드 등의 저작자 외의 다른 전문가 또는 팀이 검사하여 오류를 찾아내는 공식적검토방법&lt;/p&gt;
+
+&lt;p&gt;소프트웨어 요구, 설계, 원시코드 등의 저작자 외의 다른 전문가 또는 팀이 검사하여  오류를 찾아내는 공식적 검토 방법
+-인스팩션
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121810784-19d12200-cc9d-11eb-8b71-5a90d4ba0ad4.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;워크스루 -
+검토 자료를 회의전에는 배포해서 사전검토한후 짧은 시간 동안 회의를 진행하는 형태로 리뷰를 통해 오류를 검출하는 문서로 만드는기법&lt;/p&gt;
+
+&lt;p&gt;워크스루
+검토 자료를 회의 전에 배포해서 사전검토한 후 짧은 시간 동안 회의를 진행하는 형태로 리뷰를 통해 오류를 검출하는 문서로 만드는 기법&lt;/p&gt;
+
+&lt;p&gt;워크 스루
+검토 자료를 회의 전에 배포해서 사전검토한 후 짧은 시간 동안 회의를 진행하는 형태로 리뷰를 통해 오류를 검출하는 문서로 만드는 기법
+워크스루
+검토자료를 회의 전에 배포해서 사전검토한후 짧은 시간동안 회의를 진행하는 형태로 리뷰를 통해 오류를 검출하고 문서로 만드는 기법&lt;/p&gt;
+
+&lt;p&gt;워크스루
+검토자료를 회의 전에 배포해서 사전검토한후 짧은 시간동안 회의를 진행하는 형태로 리뷰를 통해 오류를 검출하고 문서로 만드는 기법&lt;/p&gt;
+
+&lt;p&gt;워크스루
+검토 자료를 회의전에 배포해서 사전 검토한 후 짧은 시간 동안 회의를 진행하는 형태로 리뷰를 통해 오류를 검출하고 문서로 만드는 기법&lt;/p&gt;
+
+&lt;p&gt;인스펙션
+소프트웨어 요구, 설계 원시 코드등의 저작자 외의 다른 전문가 또는 팀이 검사하여 오류를 찾아내는 공식적 검토방법&lt;/p&gt;
+
+&lt;p&gt;인스팩션
+소프트웨어 요구, 설계 원시 코드등의 저작자 외의 다른 전문가 또는 팀이 검사하여 오류를 찾아내는 공식적 검토방법&lt;/p&gt;
+
+&lt;p&gt;인스팩션
+소프트웨어 요구, 설계 원시 코드등의 저작자 외의 다른 전문가 또는 팀이 검사하여 오류를 찾아 내는 공식적 검토방법&lt;/p&gt;
+
+&lt;p&gt;인스팩션
+소프트웨어 요구, 설계 원시 코드등의 저작자 외의 다른 전문가 또는 팀이 검사여 오류를 찾아내는 공식적 검토방법&lt;/p&gt;
+
+&lt;p&gt;인스펙션
+소프트웨어 요구,설계,원시코드 등의 저작자 외의 다른 전문가 또는 팀이 검사하여 오류를 찾아내는 공식적 검토 방법&lt;/p&gt;
+
+&lt;p&gt;동료 검토
+2~3명이 진행하는 리뷰의 형태로 요구사항 명세서 작성자가 요구사항을 들으며
+이해관계자들과 결함을 발견하는 형태 검토기법&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121810799-281f3e00-cc9d-11eb-8b1d-7065996a8c2c.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;[사전] 테이블
+[결과] 테이블&lt;/p&gt;
+
+&lt;p&gt;select *
+from 사전(테이블)
+where 단어(목록) like ‘_symmetry’;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121810810-2eadb580-cc9d-11eb-8d6c-34278876814d.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;수우미양가
+DOS 공격은 특정 서버에서 수많은 접속 시도를 만들어 다른 이용자가 정상적으로 서비스 이용을 하지 못하게 하거나, 서버의자원을 소진시켜서 원래 의도된 용도로 사용하지 못하게 하는 공격이다.&lt;/p&gt;
+
+&lt;p&gt;DOS
+DOS 공격은 특정 서버에서 수많은 접속 시도를 만들어 다른 이용자가 정상적으로 서비스 이용을 하지 못하게 하거나, 서버의 자원을 소진시켜서 원래 의도된 용도로 사용하지 못하게 하는 공격이다.
+DOS 공격은 특정 서버에게 수많은 접속시도를 만들어 다른 이용자가 정상적으로 서비스 이용을 하지 못하게 하는 것&lt;/p&gt;
+
+&lt;p&gt;SELECT 자격증, 응시료&lt;/p&gt;
+
+&lt;p&gt;SELECT A.자격증번호 AS 자격증번호,
+A자격증명 AS 자격증명,
+B응시료 AS 응시료
+FROM 자격증
+A LEFT JOIN 응시료 B ON A
+A.자격증번호 = B. 자격증번호;
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121810822-38cfb400-cc9d-11eb-8c64-ae81b5d123e6.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;JSON은 “속성-값.쌍”
+“키-값 쌍” 으로 이루어진 데이터 오브젝트를 전달하기 위해 인간이 읽을수 있는 텍스트를 사용하는 개방형 표준 포맷이다.&lt;/p&gt;
+
+&lt;p&gt;JSON은 “속성- 값,쌍”
+“키-값 쌍” 으로 이루어진
+데이터 오브젝트를 전달하기 위해 인간이 읽을수 있는 텍스트를 사용하는 개방형 표준&lt;/p&gt;
+
+&lt;p&gt;JSON 개념 서술
+JSON은 “속성- 값쌍”, “키-값쌍” 으로 이루어진 데이터 오브젝트를 전달하기 위해 인간이 읽을수 있는 텍스트를 사용한 개방형 표준 포맷이다.&lt;/p&gt;
+
+&lt;p&gt;요구사항 명세 단계에서 사용자의 요구를 표현할 때 수학적인 원리와 표기법으로 서술하는 기법은?
+정형명세기법&lt;/p&gt;
+
+&lt;p&gt;요구사항 명세 단계에서 사용자의 요구를 표현할 때 수학적인 원리와 표기법으로 서술하는 기법은? 정형명세기법&lt;/p&gt;
+
+&lt;p&gt;비정형명세기법
+비정형 명세기법은 사용자의 요구를 표현할 때 자연어를 기반으로 서술하는 기법이다.&lt;/p&gt;
+
+&lt;p&gt;정형기법 사용자의 요구를 표현할 때 수학적인 원리와 표기법으로 서술하는 기법이다&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121810830-41c08580-cc9d-11eb-91d0-7b545bfd89de.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A= 30
+B = 15&lt;/p&gt;
+
+&lt;p&gt;병행 제어의 미모장시 문제점
+갱현모연
+갱신 손실
+현황 파악오류
+모순성
+연쇄복귀&lt;/p&gt;
+
+&lt;p&gt;갱신 손실
+먼저 실행된 트랜잭션의 결과를 나중에 실행된 트랜잭션이 덮어쓸 때 발생하는 오류
+현황 파악오류
+트랜잭션의 중간 수행 결과를 다른 트랜잭션이 참조하여 발생하는 오류
+모순성
+두 트랜잭션이 동시에 실행되어 데이터베이스의 관성이 결여 되는 오류&lt;/p&gt;
+
+&lt;p&gt;연쇄복귀
+복수의 트랜잭션이 데이터 공유 시 특정 트랜잭션이 처리를 취소할 경우 트랜잭션이 처리한 곳의 부분을 취소하지 못하는 오류&lt;/p&gt;
+
+&lt;p&gt;갱신 손실
+먼저 실행된 트랜잭션의 결과를 나중에 실행된 트랜잭션이 덮어쓸 때 발생하는 오류&lt;/p&gt;
+
+&lt;p&gt;현황 파악오류
+트랜잭션의 중간 수행 결과를 다른 트랜잭션이 참조하여 발생하는 오류&lt;/p&gt;
+
+&lt;p&gt;모순성
+두 트랜잭션이 동시에 실행되어 데이터베이스의 관성이 결여 되는 오류&lt;/p&gt;
+
+&lt;p&gt;연쇄복귀
+복수의 트랜잭션이 데이터 공유 시 특정 트랜잭션이 처리를 취소할 경우 트랜잭션이 처리한 곳의 부분을 취소하지 못하는 오류&lt;/p&gt;
+
+&lt;p&gt;병행제어 미보장 시 문제점
+경현모연&lt;/p&gt;
+
+&lt;p&gt;경현이 모두 연기 됫어
+경현모연
+병행제어 미보장 시 문제점
+경현모연
+갱신 손실
+현황 파악오류
+모순성
+연쇄복귀&lt;/p&gt;
+
+&lt;p&gt;병행 제어 미보장 시 문제
+갱현모연  갱 현재 모두 연기!!!!!!!!!
+갱신 손실
+갱신은 한디로 덮어쓰는 UPDATE라고 볼 수 있다…
+먼저 실행된 트랜잭션의 결과를 나중에 실행된 트랜잭션이 덮어 쓸 때 발생하는 오류&lt;/p&gt;
+
+&lt;p&gt;현황 파악 오류
+참조하는 경우 현황파악 오류라고 볼수잇다.
+수행결과를 참조 = 현황 파악!
+트랜잭션의 중간 수행결과를 다른 트랜잭션이 참조하여 발생하는 오류&lt;/p&gt;
+
+&lt;p&gt;모순성
+두 개의 트랜잭션이 동시에 실행된다= 모순성&lt;/p&gt;
+
+&lt;p&gt;두 트랜잭션이 동시에 실행되어 데이터베이스의 관성이 결여되는 오류&lt;/p&gt;
+
+&lt;p&gt;연쇄복귀
+공유시 - 처리를 취소할 경우- 트랜잭션이 처리한곳의 부분을 취소못함
+= 연쇄적으로 복귀가 불가능하다
+= 연쇄복귀
+복수의 트랜잭션이 데이터 공유시 특정 트랜잭션이 처리를 취소할 경우 트랜잭션이 처리한 곳의 부분을 취소하지 못하는 오류&lt;/p&gt;
+
+&lt;p&gt;갱현모연&lt;/p&gt;
+
+&lt;p&gt;갱신손실
+먼저 실행된 트랜잭션의 결과를 나중에 실행된 트랜잭션이 덮어쓸 때 발생하는 오류&lt;/p&gt;
+
+&lt;p&gt;현황 파악오류
+중간 수행중 ( 현황 파악)
+참조햇는데 오류 남 ( 오류)&lt;/p&gt;
+
+&lt;p&gt;트랜잭션의 중간 수행 결과를 다른 트랜잭션이 참조하여 발생하는 오류&lt;/p&gt;
+
+&lt;p&gt;모순성
+두 트랜잭션이 동시에 실행되어 데이터베이스의 관성이 결여되는 오류&lt;/p&gt;
+
+&lt;p&gt;연쇄복귀
+복수의 트랜잭션 공유
+처리를 취소
+부분취소안됨
+연쇄복귀 가 안됨&lt;/p&gt;
+
+&lt;p&gt;복수의 트랜잭션이 데이터 공유 시 특정 트랜잭션이 처리를 취소할 경우 트랜잭션이 처리한 곳의 부분을 취소하지 못하는오류&lt;/p&gt;
+
+&lt;p&gt;c언어 코드
+%d는 10진 정수
+%i10진 정수
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121810844-4b49ed80-cc9d-11eb-9cc4-55820cba9a3d.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;%% 기호 출력
+%N 문자 개수를 포인터 변수에 대입&lt;/p&gt;
+
+&lt;p&gt;hello world&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/121810853-57ce4600-cc9d-11eb-9d7e-12b4d6915719.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;[insert 문]
+insert into soojebi values (200614);&lt;/p&gt;
+
+&lt;p&gt;자리수 변경하는 문법 modify를 써서
+soojebi_num number(6)&lt;/p&gt;
+
+&lt;p&gt;alter table soojebi
+modify soojebi_num number(6);&lt;/p&gt;
+
+&lt;p&gt;16번  데이터 흐름도(DFD)
+에 대한 구성요소에 대한 설명
+(1)
+(처리기) 입력된 데이터를 원하는 형태로 변환하여 출력하기 위한 과정ㅇ로 DFD에서는 원(O)으로 표시
+( 변환, 출력- 처리기)&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;((2)데이터 흐름)&lt;/dt&gt;
+  &lt;dd&gt;dfd 의 구성요소(프로세스, 데이터 저장소, 외부 엔터티)를 간의 주고받는 데이터 흐름을 나타내며, dfd 에서는 화살표(-&amp;gt;)로 표시
+(데이터 흐름을 나타내는 DFD에서 화살표-&amp;gt;로 표시되는 것= 데이터 흐름)&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;((3)데이터 저장소)
+데이터가 저장된 장소이고, 평행선으로 표시하며, 평행선 안에는 데이터 저장소의 이름을 넣음&lt;/p&gt;
+
+&lt;p&gt;(데이터가 저장된 장소= 데이터 저장소,
+평행선(=)으로 표시 = 데이터 저장소,
+평행선 안에는 데이터 저장소의 이름을 넣음
+(모델링 절차 요-개-논-물 대 네 )
+모델링 절차에 대한 설명이다. 괄호 ()안에 들어갈 절차를 쓰시오.
+(1)개념모델링 : 업무중심의 포괄적인 모델링으로 추상화하는 활동으로 주제영역과 핵심데이터 간 관계 정의&lt;/p&gt;
+
+&lt;p&gt;(2) : 논리모델링
+관계, 속성. 키 등을 도출하는 활동&lt;/p&gt;
+
+&lt;p&gt;iso/iec 9126 ( iso/ iec 25010: 2011로 변경)
+의 소프트웨어 품질 특성에는
+기능성 소프트웨어가 특정 조건에서 사용될 때 명시된 요구와 내재된 요구를 만족하는 기능을 제공하는 소프트웨어 제품의 능력&lt;/p&gt;
+
+&lt;p&gt;신뢰성
+명시된 조건에서 사용될 때 성능 수준을 유지할 수 있는 소프트웨어 제품의 능력
+옳고 일관된 결과를 얻기 위하여 요구된 기능을 수행할 수 잇는 정도
+사용성
+명시된 조건에서 사용될 경우, 사용자에 의해
+이해되고, 학습되고, 사용되고 선호될수잇는 소프트웨어 제품의 능력을 말함&lt;/p&gt;
+
+&lt;p&gt;효율성
+명시된 조건에서 사용되는 자원의 양에 따라 요구된 성능을 제공하는 소프트웨어 제품의 능력을 말함&lt;/p&gt;
+
+&lt;p&gt;유지보수성
+소프트웨어 제품이 변경되는 능력
+이식성
+한 환경에서 다른 환경으로 전이될 수 있는 소프트웨어 제품의 능력&lt;/p&gt;</content><author><name>spaceXML</name></author><category term="blog" /><summary type="html">정처기 실기공부 (1)</summary></entry><entry><title type="html">어쩌다어른 고층에는 권력자가산다 리뷰</title><link href="https://spacexml.github.io/blog-4" rel="alternate" type="text/html" title="어쩌다어른 고층에는 권력자가산다 리뷰" /><published>2021-06-07T00:00:00+09:00</published><updated>2021-06-07T00:00:00+09:00</updated><id>https://spacexml.github.io/blog-4</id><content type="html" xml:base="https://spacexml.github.io/blog-4">&lt;p&gt;&lt;strong&gt;&lt;center&gt;어쩌다어른 고층에는 권력자가산다 리뷰&lt;/center&gt;&lt;/strong&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;루프탑 카페가 인기있는 이유&lt;br /&gt;&lt;/p&gt;
 
@@ -410,10 +674,4 @@ exclude:
   - _posts/iot
   - _posts/r
   - _posts/economy&lt;/pre&gt;&lt;/noscript&gt;
-&lt;script src=&quot;https://gist.github.com/spaceXML/b4af5c2c4df5b48244473ce91aafcf84.js&quot;&gt; &lt;/script&gt;</content><author><name>spaceXML</name></author><category term="blog" /><summary type="html">Python을 사용하여 여러 절로 목차를 구성 하였습니다. blog1-test blog2-test</summary></entry><entry><title type="html">news</title><link href="https://spacexml.github.io/news-basic" rel="alternate" type="text/html" title="news" /><published>2021-05-12T19:32:00+09:00</published><updated>2021-05-12T19:32:00+09:00</updated><id>https://spacexml.github.io/news-basic</id><content type="html" xml:base="https://spacexml.github.io/news-basic">&lt;p&gt;하하하하하 TEST 중입니다.&lt;/p&gt;</content><author><name>spaceXML</name></author><category term="news" /><summary type="html">하하하하하 TEST 중입니다.</summary></entry><entry><title type="html">coupang</title><link href="https://spacexml.github.io/copang-basic" rel="alternate" type="text/html" title="coupang" /><published>2021-05-12T19:31:00+09:00</published><updated>2021-05-12T19:31:00+09:00</updated><id>https://spacexml.github.io/copang-basic</id><content type="html" xml:base="https://spacexml.github.io/copang-basic">&lt;p&gt;하하하하하 TEST 중입니다.&lt;/p&gt;</content><author><name>spaceXML</name></author><category term="coupang" /><summary type="html">하하하하하 TEST 중입니다.</summary></entry><entry><title type="html">OK스카이차 promotion</title><link href="https://spacexml.github.io/promotionl-basic" rel="alternate" type="text/html" title="OK스카이차 promotion" /><published>2021-05-12T19:30:00+09:00</published><updated>2021-05-12T19:30:00+09:00</updated><id>https://spacexml.github.io/promotionl-basic</id><content type="html" xml:base="https://spacexml.github.io/promotionl-basic">&lt;p&gt;하하하하하 OK스카이차 promotion TEST&lt;/p&gt;</content><author><name>spaceXML</name></author><category term="promotion" /><summary type="html">하하하하하 OK스카이차 promotion TEST</summary></entry><entry><title type="html">Python 강좌 Python 기본</title><link href="https://spacexml.github.io/project-basic" rel="alternate" type="text/html" title="Python 강좌 Python 기본" /><published>2021-05-12T19:30:00+09:00</published><updated>2021-05-12T19:30:00+09:00</updated><id>https://spacexml.github.io/project-basic</id><content type="html" xml:base="https://spacexml.github.io/project-basic">&lt;p&gt;javascript test 중입니다 흠&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;syntaxHighlight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-   &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;foo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Hello World'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-   &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;bar&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>spaceXML</name></author><category term="project" /><summary type="html">javascript test 중입니다 흠</summary></entry></feed>
+&lt;script src=&quot;https://gist.github.com/spaceXML/b4af5c2c4df5b48244473ce91aafcf84.js&quot;&gt; &lt;/script&gt;</content><author><name>spaceXML</name></author><category term="blog" /><summary type="html">Python을 사용하여 여러 절로 목차를 구성 하였습니다. blog1-test blog2-test</summary></entry><entry><title type="html">news</title><link href="https://spacexml.github.io/news-basic" rel="alternate" type="text/html" title="news" /><published>2021-05-12T19:32:00+09:00</published><updated>2021-05-12T19:32:00+09:00</updated><id>https://spacexml.github.io/news-basic</id><content type="html" xml:base="https://spacexml.github.io/news-basic">&lt;p&gt;하하하하하 TEST 중입니다.&lt;/p&gt;</content><author><name>spaceXML</name></author><category term="news" /><summary type="html">하하하하하 TEST 중입니다.</summary></entry><entry><title type="html">coupang</title><link href="https://spacexml.github.io/copang-basic" rel="alternate" type="text/html" title="coupang" /><published>2021-05-12T19:31:00+09:00</published><updated>2021-05-12T19:31:00+09:00</updated><id>https://spacexml.github.io/copang-basic</id><content type="html" xml:base="https://spacexml.github.io/copang-basic">&lt;p&gt;하하하하하 TEST 중입니다.&lt;/p&gt;</content><author><name>spaceXML</name></author><category term="coupang" /><summary type="html">하하하하하 TEST 중입니다.</summary></entry><entry><title type="html">OK스카이차 promotion</title><link href="https://spacexml.github.io/promotionl-basic" rel="alternate" type="text/html" title="OK스카이차 promotion" /><published>2021-05-12T19:30:00+09:00</published><updated>2021-05-12T19:30:00+09:00</updated><id>https://spacexml.github.io/promotionl-basic</id><content type="html" xml:base="https://spacexml.github.io/promotionl-basic">&lt;p&gt;하하하하하 OK스카이차 promotion TEST&lt;/p&gt;</content><author><name>spaceXML</name></author><category term="promotion" /><summary type="html">하하하하하 OK스카이차 promotion TEST</summary></entry></feed>
