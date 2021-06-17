@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="https://spacexml.github.io/tag/blog/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://spacexml.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-06-15T07:07:32+09:00</updated>
+  <updated>2021-06-18T06:11:57+09:00</updated>
   <id>https://spacexml.github.io/tag/blog/feed.xml</id>
 
   
@@ -30,6 +30,162 @@
   
   
 
+  
+    <entry>
+      <title type="html">정처기 실기공부 (3)</title>
+      <link href="https://spacexml.github.io/blog-7" rel="alternate" type="text/html" title="정처기 실기공부 (3)" />
+      <published>2021-06-18T00:00:00+09:00</published>
+      <updated>2021-06-18T00:00:00+09:00</updated>
+      <id>https://spacexml.github.io/blog-7</id>
+      <content type="html" xml:base="https://spacexml.github.io/blog-7">&lt;p&gt;from 자격증 a left join 응시료 b
+on a.자격증번호 = b.자격증번호;&lt;/p&gt;
+
+&lt;p&gt;자바 소수점 자리
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/122471982-eecb3300-cffa-11eb-80be-b0c5dfc31330.png&quot; alt=&quot;image&quot; /&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/122472009-f7bc0480-cffa-11eb-8dda-70c50fdb0686.png&quot; alt=&quot;image&quot; /&gt;
+나머지 연산자 비교
+비교연산자
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/122472105-17532d00-cffb-11eb-9aec-21eb530ae03c.png&quot; alt=&quot;image&quot; /&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/122472159-289c3980-cffb-11eb-82a9-659ea14a9cae.png&quot; alt=&quot;image&quot; /&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/122472276-541f2400-cffb-11eb-928f-de38d564f2d7.png&quot; alt=&quot;image&quot; /&gt;
+===============
+삼항연산자 공식!&lt;/p&gt;
+
+&lt;p&gt;(조건식)? 식1: 식2&lt;/p&gt;
+
+&lt;p&gt;===sss&lt;/p&gt;
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kr&quot;&gt;package&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;java_var_prj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;kr&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;VarcCasting&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;kr&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kr&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		
+		&lt;span class=&quot;cm&quot;&gt;/*
+		 * 형 변환(Casting)
+		 * 	- 기본타입 형변환
+		 * 		1)string + all type : string
+		 * 		2) 정수형계산은 int 타입이다.
+		 * 		 -	1+1  -&amp;gt; int
+		 * 		 - byte	= 12;
+		 * 		   short s = 20;
+		 * 		   b+s -&amp;gt; 32 (int 타입으로 결과값이 나옴)
+		 * 		
+		 * 
+		 * 		- 기본타입 형변환 방법
+		 * 		long longValue = 1000; 
+		 * 		 int intvalue = (int)d; //(변환할 타입) 변수명
+		 * 		-------------
+		 * 		int intValue1 = 1000;
+		 * 		long longValue1 = (long)intValue1;
+		 * 
+		 *
+		 * 
+		 */&lt;/span&gt;
+		
+		&lt;span class=&quot;kr&quot;&gt;long&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;longValue&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+		&lt;span class=&quot;kr&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;intValue&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kr&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;longValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+		&lt;span class=&quot;nx&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;intValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+		
+		&lt;span class=&quot;kr&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;intValue1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1234&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+		&lt;span class=&quot;kr&quot;&gt;long&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;longValue1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kr&quot;&gt;long&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;intValue1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+		&lt;span class=&quot;nx&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;longValue1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+		&lt;span class=&quot;kr&quot;&gt;float&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;floatValue&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;545.12f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+		&lt;span class=&quot;kr&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;intValue2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kr&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;floatValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+		&lt;span class=&quot;nx&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;intValue2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;===============&lt;/p&gt;
+
+&lt;p&gt;int 정수 연습
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/122472411-86308600-cffb-11eb-89b3-1d88849727d0.png&quot; alt=&quot;image&quot; /&gt;
+3과 5의 배수 구하기
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/122472466-96486580-cffb-11eb-9505-993504c8080c.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kr&quot;&gt;package&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;operator&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;kr&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;OperatorEx&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+
+	&lt;span class=&quot;kr&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kr&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		
+				
+		&lt;span class=&quot;kr&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;input&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+					
+&lt;span class=&quot;c1&quot;&gt;//		result = i++;&lt;/span&gt;
+		
+		&lt;span class=&quot;nb&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;resultStr1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)?&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;짝&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;홀&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+		&lt;span class=&quot;nx&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;3의 배수 여부: &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;resultStr1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+		
+		
+		
+		&lt;span class=&quot;nx&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;---------------------------&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+		
+		&lt;span class=&quot;kr&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;346545&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+		
+		&lt;span class=&quot;nb&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;result1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;in&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)?&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;3의 배수&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;3의 배수아님&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+		&lt;span class=&quot;nb&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;result2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;in&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)?&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;3의 배수&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;3의 배수아님&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+		&lt;span class=&quot;nb&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;result3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;in&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)?&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;3과 5의 배수이다.&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;3과 5의 배수가 아니다&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+		
+		&lt;span class=&quot;nx&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;result1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;,&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;result2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+		&lt;span class=&quot;nx&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;result3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+				
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;switch case 동작의 순서
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/122472571-bb3cd880-cffb-11eb-95be-aaa2d704533f.png&quot; alt=&quot;image&quot; /&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/122472602-c5f76d80-cffb-11eb-9aa5-64c09adf8109.png&quot; alt=&quot;image&quot; /&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/84154282/122472643-ce4fa880-cffb-11eb-8d72-5baf02459432.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;인증 기술중 (—)기반 인증은 사용자가 기억하고 있는 사례로는 ID,패스워드가 있다. 괄호안에 들어갈 용어는&lt;/p&gt;
+
+&lt;p&gt;지식 기반 인증&lt;/p&gt;
+
+&lt;p&gt;(—) : 사용자와 만나지 않고 프론트엔드와 연동하여 핵심로직을 처리하는 영역으로 DB나 인터페이스를 통해서 시스템에 접근하여 처리&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;백엔드&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;트랜잭션에 대해 서술하시오&lt;/p&gt;
+
+&lt;p&gt;트랜잭션 데이터베이스 시스템에서 하나의 논리적 기능을 정상적으로 수행하기 위한 작업의 기본단위이다.&lt;/p&gt;
+
+&lt;p&gt;데이터베이스 시스템에서 하나의 논리적기능을 정상적으로 수행하기 위한 작업의 기본단위.&lt;/p&gt;
+
+&lt;p&gt;하나의 논리적기능을 정상적으로 수행하기 위한 작업의 기본단위.
+하나의 논리적기능을 정상적으로 수행하기 위한 작업의 기본단위.&lt;/p&gt;
+
+&lt;p&gt;트랜잭션&lt;/p&gt;
+
+&lt;p&gt;하나의 논리적 기능을 정상적으로 수행하기 위한 작업의기본단위&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>spaceXML</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="blog" />
+      
+
+      
+        <summary type="html">from 자격증 a left join 응시료 b on a.자격증번호 = b.자격증번호;</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">정처기 실기공부 (2)</title>

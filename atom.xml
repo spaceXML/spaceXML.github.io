@@ -8,6 +8,22 @@
     
       
       <item>
+        <title>정처기 실기공부 (3)</title>
+        
+          <description>&lt;p&gt;from 자격증 a left join 응시료 b
+on a.자격증번호 = b.자격증번호;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 18 Jun 2021 00:00:00 +0900</pubDate>
+        <link>
+        https://spaceXML.github.io/blog-7</link>
+        <guid isPermaLink="true">https://spaceXML.github.io/blog-7</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>정처기 실기공부 (2)</title>
         
           <description>&lt;p&gt;insert into soojebi values (200614);&lt;/p&gt;
